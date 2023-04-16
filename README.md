@@ -64,7 +64,7 @@
 ## Class Diagram
  > Include a class diagram and a description of the diagram. This should be in sufficient detail that another group could pick up the project this point and successfully complete it.
  -->
- ![class diagram of the project](git.jpg)
+ ![class diagram of the project](images/git.jpg)
  ## Description: 
    Commands are implemented in a strategy pattern on the right. The files are stored in a composite pattern on the bottom. The lines of files are stored via a flyweight pattern in the center. The factory will provide a pointer to a line of text in its pool when given a line. Files need then store a vector of pointers rather than the entire contents, saving space.
  <!--
@@ -81,10 +81,10 @@
 -->
  ## Final deliverable:
  ## Screenshots
- ![command_example](commands.PNG)
- ![stage_example](stage.PNG)
- ![lines_example](lines.PNG)
- ![project_example](project.PNG)
+ ![command_example](images/commands.PNG)
+ ![stage_example](images/stage.PNG)
+ ![lines_example](images/lines.PNG)
+ ![project_example](images/project.PNG)
  
  ## Installation/Usage
   First compile: g++ Main.cpp. Init the repository with ./a.out init. To see avaliable commands use ./a.out help 
